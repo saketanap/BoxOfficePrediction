@@ -1,0 +1,20 @@
+Box-office performance of a movie is mainly determined by the amount the movie
+collects in the opening weekend and Pre-Release hype is an important factor as far as
+estimating the openings of the movie are concerned. This can be estimated through
+user opinions expressed online on sites such as Twitter which is an online microblogging site with a user base running into millions. 
+Each user is entitled to his own opinion which he expresses through his tweets. This paper suggests a novel way to mine and analyze the opinions expressed in these tweets with respect to a movie prior to its release, estimate the hype surrounding it and also predict the box-office openings of the movie.
+
+People use social networking sites to communicate about every potential area of interest, including, Movies, food, sports, music, etc. It is estimated that there are over 900 social media sites on the internet. But this paper focuses on the site ‘Twitter’.
+Working:
+Finding the number of tweets pertaining to a movie by using a web crawler. 
+These tweets are collected on per hour basis. The first factor contributing to the hype is given by the total number of tweets pertaining to the movie.
+Finding out β, which is the number of relevant tweets per second.
+Hype factor (α) = no. of distinct users / no. of tweets by each user
+Follower-count factor is considered a factor to ensure the reach factor (σ) is also included in the determination of the hype.
+σ = (follower count – τ) / follower count
+Where τ = average no. of followers per all the users who tweeted.
+Hype = Σ( (α + σ(scaled down) ) / 2)
+The opening box office collection (O) can be predicted as
+o= μ * Hype * φK
+
+The accuracy of this model is increased by including new hype Factor and the reach Factor and scaling the factor to a threshold limit due to which using the Hype Based formula can be a more accurate method to predict the opening success of the box office.
