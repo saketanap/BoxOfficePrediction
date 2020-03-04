@@ -1,3 +1,5 @@
+DISCLAIMER: This Code is based on Research paper "Box-Office Opening Prediction of Movies based on Hype Analysis through Data Mining" from "International Journal of Computer Applications (0975 – 8887) Volume 56– No.1, October 2012"
+
 Box-office performance of a movie is mainly determined by the amount the movie
 collects in the opening weekend and Pre-Release hype is an important factor as far as
 estimating the openings of the movie are concerned. This can be estimated through
